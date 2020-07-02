@@ -59,6 +59,8 @@ executable irc-bot
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.11 && <4.12
                      , network
+                     , transformers
+                     , time
 
   -- Directories containing source files.
   hs-source-dirs:      src
